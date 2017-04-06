@@ -1,0 +1,35 @@
+eye 2 2 10
+viewdir -.25 -.25 -1
+updir 0 1 0
+
+fovh 90
+imsize 1920 1080  
+
+
+light -1 0 0 0 1 1 1
+light 0 -1 0 0 1 1 1
+light 0 0 -1 0 1 1 1
+light 0 0 -12 1 1 1 1
+
+light 0 0 12 1 1 1 1
+
+
+bkgcolor 0.4 0.4 0.4 
+
+
+
+mtlcolor 0 1 0  1 1 1  0.2 0.3 0.3 50
+cyly 0 -20 1 
+
+
+mtlcolor 1 0 0  1 1 1  0.2 0.3 0.3 50
+cylz -8 -3 3
+sphere -.5 2 0 .5
+
+mtlcolor 0 0 1  1 1 1  0.2 0.3 0.3 50
+cylz 8 -2 3
+sphere 0 0 0 1
+
+mtlcolor 1 1 0  1 1 1  0.2 0.3 0.4 50
+cylz 0 -20 10 
+sphere 0 3 0 .25
